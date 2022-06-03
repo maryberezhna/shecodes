@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather forecast</title>
+  </head>
+  <body>
+    <style>
+      body {
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+      h1 {
+        color: #1a64d6;
+        font-size: 34px;
+        line-height: 48px;
+      }
+
+      h2 {
+        font-size: 34px;
+        line-height: 30px;
+        font-weight: 400;
+      }
+
+      span {
+        font-size: 1.17em;
+        font-weight: bold;
+      }
+
+      .forecast {
+        margin: 10px auto;
+        padding: 20px;
+        width: 300px;
+        line-height: 1.75;
+      }
+
+      .temperatura {
+        font-size: 18px;
+        opacity: 0.7;
+        font-family: monospace;
+      }
+
+      .forecast:hover {
+        background-color: lightgoldenrodyellow;
+
+        border-radius: 10px;
+      }
+      button {
+        margin: 5px auto;
+        border: 1px solid #1a64d6;
+        background: #1a64d6;
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: white;
+        color: #1a64d6;
+      }
+
+      p {
+        font-size: 18px;
+        opacity: 0.7;
+        text-align: center;
+        font-family: monospace;
+      }
+    </style>
+
+    <h1>
+      🌤 <br />
+      Currently 21° in Tokyo
+    </h1>
+    <h2>13°/ <strong> 23°</strong></h2>
+    <div class="forecast">
+      <span>🌧Tomorrow</span>
+      <div class="temperatura">10° <strong> / 22° </strong></div>
+    </div>
+    <div class="forecast">
+      <span>🌥 Saturday</span>
+      <div class="temperatura">15° <strong> / 17°</strong></div>
+    </div>
+    <div class="forecast">
+      <span>☀️ Sunday</span>
+      <div class="temperatura">25° <strong> / 28°</strong></div>
+    </div>
+    <button>Change city</button>
+    <p>Coded by Matt Delac</p>
+  </body>
+</html>
