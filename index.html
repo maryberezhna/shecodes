@@ -1,125 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.csss" />
-  </head>
-  <body>
-    <style>
-      body {
-        background-color: #f6f2fe;
-      }
+</head>
 
-      h1 {
-        color: #885df1;
-        font-size: 48px;
-        text-decoration: underline;
-        text-align: center;
-        font-weight: 300;
-      }
+<body>
+    <script>
+        let firstname = prompt("What is your name?");
+        if (firstname.length > 0) {
+            alert("Welcome, " + firstname);
+        } else {
+            alert("Too bad for you");
+        }
+    </script>
+</body>
 
-      h2 {
-        text-align: center;
-        text-transform: capitalize;
-        color: #272044;
-        font-weight: normal;
-      }
-
-      ul {
-        text-align: center;
-        list-style-type: none;
-        padding: 0;
-      }
-
-      ul li {
-        display: inline;
-        margin: 0 20px;
-      }
-
-      a {
-        text-decoration: none;
-      }
-
-      a:hover {
-        text-decoration: underline;
-      }
-
-      .blue {
-        color: blue;
-      }
-      .red {
-        color: red;
-      }
-      .green {
-        color: green;
-      }
-
-      .center {
-        text-align: center;
-        display: block;
-        margin: 0 auto;
-      }
-
-      button {
-        padding: 20px;
-        background-color: transparent;
-        color: #885df1;
-        border: 1px solid lightgrey;
-        border-radius: 40px;
-        box-shadow: 10px 5px 5px silver;
-      }
-
-      button:hover {
-        background-color: #885df1;
-        color: white;
-        transition: all 200ms ease-in-out;
-        cursor: pointer;
-      }
-
-      .contact {
-        text-align: center;
-        margin-top: 20px;
-      }
-
-      span {
-        margin-right: 10px;
-      }
-
-      .colored {
-        margin-right: 0;
-        color: #885df1;
-      }
-    </style>
-    <h1>SheCodes</h1>
-    <h2>Coding workshop</h2>
-    <button class="center">Apply now</button>
-    <ul>
-      <li>
-        <a class="blue" href="https://www.shecodes.io/students">Coders</a>
-      </li>
-      <li>
-        <a class="red" href="https://www.shecodes.io/workshops">Courses</a>
-      </li>
-      <li>
-        <a class="green" href="https://www.shecodes.io/stories">Stories</a>
-      </li>
-    </ul>
-    <hr />
-    <p><strong class="center">More info</strong></p>
-    <img
-      class="center"
-      src="https://media.istockphoto.com/vectors/young-female-character-writing-code-on-a-desktop-computer-working-vector-id1219473620?k=20&m=1219473620&s=612x612&w=0&h=rgN3XvnCmlaLpiFimQ9QaAoZcfV0OVKdrtN95CSwCHA="
-      alt="women coding"
-      width="300px"
-    />
-    <div class="contact">
-      <span class="colored">Email:</span>
-      <span>hello@shecodes.io</span>
-      <span class="colored">Instagram:</span>
-      <span> @shecodes.io:</span>
-    </div>
-  </body>
 </html>
