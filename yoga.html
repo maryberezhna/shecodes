@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yoga meditation</title>
+  </head>
+  <body>
+    <style>
+      .wrapper {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        max-width: 700px;
+        margin: 0 auto;
+        line-height: 1.5;
+        padding: 15px;
+        border: 4px dotted darkmagenta;
+        background: linear-gradient(to bottom, #f2d1d1 0%, #ef9f9f 100%);
+      }
+
+      .flex {
+        display: flex;
+        background-color: white;
+      }
+
+      h1 {
+        text-align: center;
+        font-weight: normal;
+        font-size: 30px;
+        text-transform: uppercase;
+        box-shadow: 10px 5px 5px brown;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 18px;
+        color: darkmagenta;
+      }
+      .text-box {
+        margin-right: 10px;
+      }
+
+      img {
+        height: 300px;
+        width: auto;
+        margin-right: 20px;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        background: #f2d1d1;
+        border: 3px solid white;
+        padding: 15px;
+        font-size: 22px;
+        border-radius: 10px;
+        transition: all 0.5s ease-out;
+      }
+      button:hover {
+        background-color: white;
+        border: 3px solid #f2d1d1;
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        font-weight: bold;
+      }
+
+      .link {
+        margin-top: 0;
+        margin-left: 5px;
+      }
+    </style>
+    <div class="wrapper">
+      <h1>How yoga change our lives</h1>
+      <h2>
+        <em>My short story about how yoga helped me to overcome depression</em>
+      </h2>
+      <hr />
+      <div class="flex">
+        <div class="img_box">
+          <img
+            src="https://media.istockphoto.com/vectors/woman-meditating-in-nature-and-leaves-concept-illustration-for-yoga-vector-id1139912908?k=20&m=1139912908&s=612x612&w=0&h=ljrtdv9NxmtUBrQ_lDzQGDmSQSnTlOMg6J75WWpDS3s="
+            alt="yoga"
+          />
+        </div>
+        <div class="text-box">
+          <p>
+            More studies are using randomized controlled trials to look at the
+            relationship between <strong>yoga and depression</strong>.
+            Randomized controlled trials are the best ways to verify study
+            results. According to the Harvard Mental Health Letter, recent
+            studies suggest that yoga can:
+          </p>
+          <ul>
+            <li>reduce the impact of stress</li>
+            <li>help with anxiety and depression</li>
+            <li>
+              be a self-soothing technique similar to meditation, relaxation,
+              and exercise
+            </li>
+            <li>improve energy</li>
+          </ul>
+        </div>
+      </div>
+      <p>
+        Yoga is a physical exercise that involves different body poses,
+        breathing techniques, and meditation. The therapy may help with
+        depression and your symptoms, such as difficulty concentrating or loss
+        of energy.
+      </p>
+      <span>Many people use yoga therapy to manage:</span>
+      <ol>
+        <li>
+          mental and emotional problems, such as stress, anxiety, or depression
+        </li>
+        <li>conditions and disorders, such as ongoing low back pain</li>
+        <li>chronic or long-term pain</li>
+        <li>overall health and well-being</li>
+      </ol>
+      <span>
+        You can find yoga classes at fitness studios, hospitals, and local
+        community centers.The classes can be gentle or challenging, depending on
+        the style.
+      </span>
+      <br />
+      <a href="https://www.healthline.com/health/depression/yoga-therapy"
+        >Read the full article here
+      </a>
+      <button>Start yoga classes</button>
+    </div>
+    <script>
+      function statYoga() {
+        let name = prompt("What is your name?");
+        let interest = prompt("Are you ready to start yoga trainings?");
+        interest = interest.toLocaleLowerCase();
+        interest = interest.trim();
+        interest = interest.replace("Yes", "yes");
+        if (interest === "yes" || interest === "ready") {
+          let page = document.querySelector(".flex");
+          page.innerHTML = `Congratulations, ${name}!. Your are ready to start yoga classes. Start now in <a class="link" href= "https://apps.apple.com/us/app/yoga-for-beginners-mind-body/id1382141225">this app </a>`;
+        } else {
+          alert(`No problem, ${name}! Come back when you will be ready`);
+        }
+      }
+      let contactButton = document.querySelector("button");
+      contactButton.addEventListener("click", statYoga);
+    </script>
+  </body>
+</html>
