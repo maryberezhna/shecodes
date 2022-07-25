@@ -1,0 +1,47 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 0 20px;
+  background: linear-gradient(#f69d3c, #3f87a6);
+  height: 650px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 48px;
+}
+
+h1 h2,
+h3 {
+  color: #3115a3;
+}
+
+.logo {
+  display: block;
+  margin: 30px auto;
+  width: 150px;
+}
+
+.box {
+  border: 1px dotted lightblue;
+  background-color: whitesmoke;
+  box-shadow: 4px 12px lightskyblue, -1em 0 0.4em olive;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.forecast-container {
+  margin-top: 50px;
+}
+
+.forecast-item {
+  border: 3px dotted lightblue;
+}
+
+.currentTime {
+  text-align: center;
+  color: orange;
+  font-style: italic;
+  margin-left: -40px;
+}
