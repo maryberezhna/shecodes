@@ -45,3 +45,12 @@ h3 {
   font-style: italic;
   margin-left: -40px;
 }
+
+.copyright{
+  font-size: 10px;
+}
+
+a {
+  color: black !important;
+  text-decoration: none;
+}
