@@ -1,0 +1,155 @@
+body {
+  font-family: nunito, sans-serif;
+}
+
+.wrapper {
+  max-width: 1160px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 48px 140px;
+}
+
+nav a {
+  font-weight: 700;
+  color: #272142;
+  text-decoration: none;
+  margin-right: 36px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  color: #662eed;
+}
+
+.main-content {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(../img/main-background.png);
+  height: 265px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+
+.main-content_title {
+  font-size: 72px;
+  line-height: 1.36;
+  padding-top: 47px;
+}
+
+.main-content_info {
+  font-size: 24px;
+  line-height: 1.45;
+  max-width: 579px;
+  margin: 5px auto 46px;
+}
+
+.wrapper-blog {
+  margin: 98px auto 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blog_item h3 {
+  margin: 20px 5px 50px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.357;
+  color: #272142;
+}
+
+.blog_item h3:hover,
+nav a:hover {
+  text-decoration: none;
+  color: #662eed;
+}
+
+.footer {
+  background-color: #f9f7fe;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 48px 150px 0;
+  align-items: center;
+  height: 100px;
+}
+
+.footer_social-media a {
+  padding: 0 30px;
+  vertical-align: middle;
+}
+
+.footer_social-media a:first-child,
+.footer_social-media a:last-child {
+  padding: 0;
+}
+
+.footer_copyright {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.icon {
+  display: none;
+}
+
+.burger {
+  padding: 0.5rem;
+}
+
+@media (max-width: 1200px) {
+  .wrapper-blog {
+    margin: 50px;
+    justify-content: center;
+  }
+
+  .blog_item h3 {
+    font-size: 18px;
+  }
+
+  .main-content_title {
+    font-size: 36px;
+    padding-top: 23px;
+  }
+
+  .main-content_info {
+    padding: 0 30px;
+    font-size: 18px;
+    margin: 25px auto 23px;
+  }
+
+  .main-content {
+    height: 165px;
+  }
+}
+
+@media (max-width: 930px) {
+  .icon {
+    display: inline;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    padding: 20px;
+  }
+}
