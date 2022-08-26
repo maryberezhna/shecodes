@@ -19,6 +19,9 @@
 .recepie-box_img {
   width: 760px;
 }
+.recepie-info{
+  margin-bottom: 120px;
+}
 
 .recepie-info_heading {
   font-weight: 700;
