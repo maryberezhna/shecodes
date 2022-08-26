@@ -1,0 +1,106 @@
+.main_heading {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.36;
+  text-align: center;
+  color: #272142;
+  margin-bottom: 126px;
+}
+
+.main-wrapper {
+  margin-top: 26px;
+}
+
+.recepie-wrapper {
+  max-width: 760px;
+  margin: 0 auto 60px;
+}
+
+.recepie-box_img {
+  width: 760px;
+}
+
+.recepie-info_heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.36;
+  color: #272142;
+  margin: 42px 0 32px;
+}
+
+.recepie-left_heading,
+.recepie-right_heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.375;
+  color: #272142;
+  padding-bottom: 25px;
+  border-bottom: 1px dashed #67d5d2;
+}
+
+.recepie-right_second-heading {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.38;
+  color: #f65282;
+}
+
+.recepie-info_content {
+  display: flex;
+}
+
+.recepie-info_content > * {
+  flex: 1;
+}
+.recepie-left {
+  margin-right: 40px;
+}
+
+.recepie-left_list {
+  margin-top: 38px;
+  vertical-align: middle;
+}
+
+.recepie-left_list li {
+  padding: 10px 5px 30px 0;
+  border-bottom: 1px dashed #67d5d2;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #272142;
+}
+
+.recepie-right_second-heading {
+  margin-top: 63px;
+  margin-bottom: 16px;
+}
+
+.recepie-right_box {
+  margin-bottom: 40px;
+}
+
+.recepie-right_text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #272142;
+}
+
+@media (max-width: 1200px) {
+  .main-wrapper {
+    margin: 50px;
+  }
+
+  .main_heading {
+    font-size: 36px;
+    margin: 15px;
+  }
+
+  .recepie-info_heading {
+    font-size: 27px;
+  }
+
+  .recepie-left_heading,
+  .recepie-right_heading {
+    font-size: 20px;
+  }
+}

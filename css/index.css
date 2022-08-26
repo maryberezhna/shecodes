@@ -29,11 +29,11 @@ a {
 
 .main-content {
   background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0.2) 100%
-    ),
-    url(../img/main-background.png);
+    180deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  ),
+  url(../img/main-background.png);
   height: 265px;
   color: white;
   text-align: center;
@@ -77,6 +77,7 @@ nav a:hover {
 .footer {
   background-color: #f9f7fe;
 }
+
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
