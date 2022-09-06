@@ -152,7 +152,16 @@ img {
   }
 
   .footer-wrapper {
-    flex-direction: column;
-    padding: 20px;
+    display: block;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .footer-wrapper * {
+    padding: 5px;
+  }
+
+  .footer_social-media a {
+    padding: 0 15px;
   }
 }
