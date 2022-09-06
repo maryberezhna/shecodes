@@ -128,4 +128,8 @@
   .about-me_content {
     display: block;
   }
+
+  .blog-item {
+    margin: 0 100px 0;
+  }
 }
