@@ -123,7 +123,7 @@
   }
 
   .about-me_img img {
-    display: none;
+    margin-bottom: 20px;
   }
   .about-me_content {
     display: block;
