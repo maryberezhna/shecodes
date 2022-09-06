@@ -21,7 +21,6 @@ nav a {
 
 a {
   text-decoration: none;
-  line-height: 1.5;
 }
 
 .active {
@@ -109,10 +108,12 @@ img {
 
 .icon {
   display: none;
+  margin-left: 10px;
 }
 
 .burger {
-  padding: 0.5rem;
+  padding: 0 0.5rem 0;
+  margin-left: 30px;
 }
 
 @media (max-width: 1200px) {
