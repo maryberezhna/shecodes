@@ -64,6 +64,11 @@ p {
   text-transform: capitalize;
 }
 
+.navigation-links a:hover {
+  color:var(--box-shadow);
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, .2);
+}
+
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
